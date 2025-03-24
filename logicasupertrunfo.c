@@ -3,22 +3,8 @@
 // Desafio Super Trunfo - Países
 // Tema 2 - Comparação das Cartas
 // Este código inicial serve como base para o desenvolvimento do sistema de comparação de cartas de cidades. 
-// Siga os comentários para implementar cada parte do desafio.
 
     // Definição das variáveis para armazenar as propriedades das cidades
-    // Você pode utilizar o código do primeiro desafio
-
-    
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
-
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
     int main() {
         char Estado,Estado2;
         char codigo[4],codigo2[4];
@@ -30,6 +16,9 @@
         float densidade_populacional,densidade_populacional2;
         float per_capita,per_capita2;
     
+        // Cadastro das Cartas:
+        // Implemente a lógica para solicitar ao usuário que insira os dados das cidades 
+        // utilizando a função scanf para capturar as entradas.
         //CADASTRO DA PRIMEIRA CARTA
         printf ("Bem vindo ao Jogo Super Trunfo. \n"); 
         printf("\n");
@@ -81,7 +70,7 @@
         printf("carta 2- %s, tem população de: %d\n",cidade2,populacao2); //informações da primeira carta
 
 
-    //uso de if-else para verificar a carta com maior população
+        //uso de if-else para verificar a carta com maior população
 
     if (populacao > populacao2) {
         printf("A carta 1- %s tem maior população.\n", cidade);  //Ebição do valor do atributo da primeira carta
